@@ -1,0 +1,1 @@
+css akan pengaruh skor performance/beban load. tapi ga gede bgt. memory gbegitu pengaruh. web.dev bisa menilai css yg berat bgmn. kalo udh di cache biasanya load timeny lebih cpt.  

@@ -1,0 +1,47 @@
+/* font-family: serif, sans-serif, monospace, fantasy, cursive */
+#lorem {
+    color:blue;
+    font-size: 1.1rem;
+    font-family: monospace;
+    /* monospace: spacing between texts are same, but it's weird for websites */
+}
+#lorem-title {
+    color:red;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+/* Class Selector */
+.text-lorem{
+color: green;
+margin: 0 20px;
+}
+#text-fox{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+font-weight: bold;
+font-size: 18px;
+}
+.sections{
+  border: 5px solid grey;
+  width: 320px;
+  padding: 20px 20px;
+  margin: 10px 20px;
+ display: flex;
+ justify-content: center;
+ border-style: dashed;
+ transition: all 0.5s ease;
+}
+.sections:hover{
+    transition: all 0.5s ease;
+}
+#section-two:hover{
+    background: #282ea6;
+    transform: rotate(-5deg);
+    z-index:10;
+}
+#section-three:hover{
+    background: #20891c;
+    transform: translateY(30px) rotate(5deg);
+    z-index:10;
+}
